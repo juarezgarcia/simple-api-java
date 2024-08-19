@@ -6,7 +6,7 @@ COPY . /opt/app
 
 WORKDIR /opt/app
 
-RUN mvn clean package -Dmaven.test.skip=true
+RUN mvn clean package
 
 FROM eclipse-temurin:21-jre-alpine
 
