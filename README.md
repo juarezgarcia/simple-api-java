@@ -14,6 +14,11 @@ Aplicação API
 docker compose up --build
 ```
 
+## Testes unitários
+
+./mvnw test
+
+
 ## Documentação online (OpenAPI)
 
 http://localhost:8080/swagger-ui/index.html
